@@ -1,0 +1,62 @@
+Arguments: 
+  D:\Program Files\nodejs\node.exe D:\Program Files (x86)\Yarn\bin\yarn.js dist
+
+PATH: 
+  C:\Users\werel\bin;D:\Program Files\Git\mingw64\bin;D:\Program Files\Git\usr\local\bin;D:\Program Files\Git\usr\bin;D:\Program Files\Git\usr\bin;D:\Program Files\Git\mingw64\bin;D:\Program Files\Git\usr\bin;C:\Users\werel\bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\Users\werel\AppData\Local\Programs\Python\Python35;D:\Program Files\newpython\Scripts;C:\Program Files\Java\jdk1.8.0_112\bin;D:\Program Files\maven\apache-maven-3.3.9\bin;D:\Program Files\worldpainter\WorldPainter;C:\Program Files (x86)\Skype\Phone;D:\Program Files (x86)\Livestreamer;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit;D:\Program Files\Git\cmd;D:\Go\bin;D:\Program Files\nodejs;D:\Program Files (x86)\Yarn\bin;D:\Users\werel\AppData\Local\Programs\Python\Python35\Scripts;D:\Users\werel\AppData\Local\Programs\Python\Python35;D:\Program Files\python\Scripts;D:\Program Files\python;C:\Users\werel\AppData\Local\Programs\Python\Launcher;C:\Users\werel\AppData\Local\atom\bin;C:\Users\werel\AppData\Local\Microsoft\WindowsApps;D:\Program Files\nodejs;C:\Windows\System32;D:\Program Files\VideoLAN\player;D:\Program Files\PHP;C:\Users\werel\AppData\Roaming\Composer\vendor\bin;D:\Program Files (x86)\Nmap;D:\Users\werel\Downloads\platform-tools-latest-windows\platform-tools;C:\Users\werel\AppData\Roaming\npm;D:\Program Files\Docker Toolbox;C:\Users\werel\AppData\Local\Yarn\bin;D:\Program Files\Git\usr\bin\vendor_perl;D:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.2.1
+
+Node version: 
+  6.11.3
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "gamehub",
+    "version": "1.0.0",
+    "description": "a gamehub made using electron",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": "https://github.com/aycgit/gamehub",
+    "keywords": [
+      "Electron",
+      "game",
+      "node",
+      "bootstrap",
+      "web"
+    ],
+    "author": "wqrld",
+    "license": "CC0-1.0",
+    "devDependencies": {
+      "electron": "~1.7.8"
+    }
+    "build": {
+    "appId": "ga.imluc.gamehub",
+    "windows": {
+      "target": "msi"
+    }
+  }
+  "scripts": {
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  SyntaxError: C:\Users\werel\Desktop\programmeren\gamehub\gamehub\package.json: Unexpected string in JSON at position 402
+      at Object.parse (native)
+      at D:\Program Files (x86)\Yarn\lib\cli.js:770:59
+      at next (native)
+      at step (D:\Program Files (x86)\Yarn\lib\cli.js:92:30)
+      at D:\Program Files (x86)\Yarn\lib\cli.js:103:13
